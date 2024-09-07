@@ -1,0 +1,29 @@
+/* Button Link Styling */
+.button-link {
+    display: inline-block;
+    width: auto;
+    padding: 10px 20px;
+    background-color: #F64C72;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.2s;
+    margin: 10px 0;
+}
+
+.button-link:hover {
+    background-color: #456705;
+    transform: scale(1.05);
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .button-link {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+}
